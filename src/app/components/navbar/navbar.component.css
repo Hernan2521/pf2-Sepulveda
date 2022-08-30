@@ -1,0 +1,32 @@
+.navbar{
+
+      display: flex;
+}
+
+.navbar{
+    background-color: #df3a13 !important
+}
+.titulo{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    font-family: 'Ledger', serif;
+    color: #f0f0f0;
+}
+.navbar-logo{
+    margin-left: 2rem;
+    font-size: large;
+    margin-bottom: 0rem;
+    text-align: justify;
+    top: 50%;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.nombre{
+    font-size: medium;
+    font-family: 'Ledger', serif;
+    color: #f0f0f0;
+}
+mat-icon{
+    color: #f0f0f0;
+}

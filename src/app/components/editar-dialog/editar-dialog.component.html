@@ -1,0 +1,17 @@
+<div >
+<h1 mat-dialog-title>Editar tus datos de Contacto</h1>
+<div mat-dialog-content>
+    <mat-form-field [formGroup]="formulario">
+         <mat-label>Mail</mat-label>
+         <input formControlName="mail" matInput>
+    </mat-form-field>
+    <mat-form-field [formGroup]="formulario">
+        <mat-label>Numero Telefono</mat-label>
+        <input formControlName="numero" matInput>
+   </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="cerrar()">Cerrar</button>
+    <button mat-button (click)="actualizar()">Actualizar</button>
+</div>
+</div>
